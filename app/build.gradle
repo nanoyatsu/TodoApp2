@@ -60,6 +60,11 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
     implementation 'androidx.activity:activity-compose:1.4.0'
 
+    def androidx_nav_ver = "2.4.0-beta02"
+    implementation "androidx.navigation:navigation-fragment-ktx:$androidx_nav_ver"
+    implementation "androidx.navigation:navigation-ui-ktx:$androidx_nav_ver"
+    implementation "androidx.navigation:navigation-compose:$androidx_nav_ver"
+
     // room
     def androidx_room_ver = "2.3.0"
     implementation "androidx.room:room-runtime:$androidx_room_ver"
