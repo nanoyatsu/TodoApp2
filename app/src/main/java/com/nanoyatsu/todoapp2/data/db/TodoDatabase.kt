@@ -8,7 +8,7 @@ import com.nanoyatsu.todoapp2.data.db.dao.TaskDao
 import com.nanoyatsu.todoapp2.data.db.entity.Task
 
 
-@Database(entities = [Task::class], version = 1, exportSchema = false)
+@Database(entities = [Task::class], version = 1, exportSchema = true)
 abstract class TodoDatabase : RoomDatabase() {
     abstract fun taskDao(): TaskDao
 
